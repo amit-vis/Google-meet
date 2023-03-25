@@ -1,0 +1,196 @@
+body{
+	background-color: black;
+}
+main{
+	width: 70%;
+	display: inline-block;
+}
+
+/*meet section---*/
+#recording-icon{
+	background-color: red;
+	width: 105px;
+	height: 30px;
+	margin-top: 8px;
+	margin-left: 20px;
+	border-radius: 5px;
+	margin-bottom: 8px;
+}
+#recording-icon i{
+	display: inline-block;
+	margin-left: 5px;
+	margin-top: 6px;
+	color: white;
+
+}
+#recording-icon span{
+	display: inline-block;
+	color: white;
+	font-weight: 200;
+	font-family: Helvetica;
+}
+
+.icon-window{
+	display: inline-block;
+	height: 200px;
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 330px;
+	background-color: grey;
+	border-radius: 20px;
+}
+.icon-window p{
+	color: whitesmoke;
+	margin-left: 20px;
+}
+.icon-window img{
+	position: relative;
+	margin-top: 50px;
+	margin-left: 110px;
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+}
+
+/*---chat section---*/
+
+aside{
+	background-color: white;
+	display: inline-block;
+	vertical-align: top;
+	height: 85vh;
+	width: 58vh;
+	border-radius: 10px;
+	margin-top: 3%;
+}
+
+.icon-msg{
+	display: inline-block;
+	margin-top: 25px;
+	margin-left: 20px;
+	margin-bottom: 15px;
+}
+.icon-msg span{
+	font-family: Helvetica;
+	font-weight: 550;
+}
+.icon-msg i{
+	margin-left: 230px;
+	font-size: 20px;
+}
+
+input{
+	width: 75%;
+	height: 45px;
+	margin-top: 45vh;
+	margin-left: 20px;
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+	letter-spacing: 0.01rem;
+	font-family: Helvetica;
+}
+button[type='submit']{
+	margin-left: -5px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	background-color: blue;
+	padding: .3%;
+	
+}
+button[type='submit']:hover{
+	background-color: #ccd5e5;
+}
+button[type='submit'] i{
+	font-size: 19px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	margin-right: 10px;
+	
+}
+#chat-heading{
+	font-size: 200;
+	margin-left: 25px;
+	font-family: Helvetica;
+}
+#paragraph-1{
+	background-color: lightgrey;
+	height: 50px;
+	width: 90%;
+	margin-left: 3%;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+#paragraph-1 p{
+	position: absolute;
+	margin-left: 20px;
+	font-family: Helvetica;
+	letter-spacing: 0.01rem;
+}
+.fa-toggle-on{
+	margin-left: 89%;
+	margin-top: 13px;
+	font-size: 25px;
+}
+#paragraph-2{
+	background-color: lightgrey;
+	width: 90%;
+	height: 75px;
+	margin-left: 3%;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+#paragraph-2 p{
+	position: absolute;
+	font-family: Helvetica;
+	overflow: auto;
+	margin-left: 10px;
+	letter-spacing: 0.01rem;
+}
+.microphone{
+	margin-top: -40%;
+	margin-left: 60%;
+	width: 100%;
+	border-radius: 2px solid black;
+}
+.microphone i{
+	margin-left: 82%;
+	color: black;
+}
+.team{
+	margin-top: 35%;
+}
+.footer{
+	height: 80px;
+}
+.microphon-footer i{
+	color: azure;
+}
+.main-icon{
+	display: flex;
+	justify-content: space-around;
+	width: 40%;
+	margin-left: 25%;
+}
+.microphon-footer{
+	border-radius: 50%;
+	background-color: rgb(202, 190, 190);
+	width: 60px;
+	height: 60px;
+	text-align: center;
+}
+.microphon-footer i{
+	font-size: 2rem;
+	color: black;
+	margin-top: 22%;
+	
+}
+.side-icon{
+	display: flex;
+	color: white;
+	width: 30%;
+	margin-left: 70%;
+	margin-top: -3%;
+}
+.side-icon i{
+	font-size: 2rem;
+}
